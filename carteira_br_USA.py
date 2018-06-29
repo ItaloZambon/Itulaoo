@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-dindin = float(input('Digite quantos reais tem em sua carteira: '))
-dolar = dindin / 3.85
-euro = dindin /  4.50
-print('Você contém {}R$, em dolares Você teria {}$, e em euros {}€.'.format(dindin, dolar, euro))
+larg = float(input('Largura da parede: '))
+alt = float(input('altura da parede: '))
+area = larg * alt
+tinta = area / 2 
+print(u'A parede contém {}x{} a sua áreia é de {} e precisará de {}l de tinta para pinta-la.'.format(larg, alt, area, tinta))
